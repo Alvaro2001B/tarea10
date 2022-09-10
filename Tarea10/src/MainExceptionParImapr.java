@@ -1,8 +1,8 @@
-/*
- * EJERCICIO 3 TAREA 10
- * AUTOR ---> Alvaro Benitez Carmona
- * 
- * */
+/**
+ * TAREA 10 EJERCICIO 3
+ * @author Alvaro Benitez Carmona
+ *
+ */
 public class MainExceptionParImapr {
 
 	public static void main(String[] args) {

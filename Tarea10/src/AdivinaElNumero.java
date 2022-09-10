@@ -1,10 +1,10 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * EJERCICIO 1 TAREA 10
- * AUTOR ---> Alvaro Benitez Carmona
- * 
- * */
+/**
+ * TAREA 10 EJERICIO 1
+ * @author Alvaro Benitez Carmona
+ *
+ */
 public class AdivinaElNumero {
 
 	public static void main(String[] args) {

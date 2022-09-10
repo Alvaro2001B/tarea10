@@ -1,14 +1,13 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * EJERCICIO 4 TAREA 10
- * AUTOR ---> Alvaro Benitez Carmona
- * 
- * */
+/**
+ * TAREA 10 EJERCICIO 10
+ * @author Alvaro Benitez Carmona
+ *
+ */
 public class Calculadora {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		boolean exit = false;
 		while (!exit) {
@@ -71,7 +70,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para calcular la raiz cubica.
+	 * @param teclado
+	 */
 	private static void raizCubica(Scanner teclado) {
 		Boolean ok = true;
 		try {
@@ -97,7 +99,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para hacer divisiones.
+	 * @param teclado
+	 */
 	private static void division(Scanner teclado) {
 		try {
 			System.out.println("Has elegido la opcion division:");
@@ -115,7 +120,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para calcular la raiz cuadrada.
+	 * @param teclado
+	 */
 	private static void raizCuadrada(Scanner teclado) {
 		boolean ok = true;
 		try {
@@ -140,7 +148,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para hacer la potencia. 
+	 * @param teclado
+	 */
 	private static void potencia(Scanner teclado) {
 		try {
 			System.out.println("Has elegido la opcion potencia:");
@@ -157,7 +168,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo apra jacer una multiplicacion.
+	 * @param teclado
+	 */
 	private static void multi(Scanner teclado) {
 		try {
 			System.out.println("Has elegido la opcion multiplicacion:");
@@ -174,7 +188,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para hacer una resta.
+	 * @param teclado
+	 */
 	private static void resta(Scanner teclado) {
 		try {
 			System.out.println("Has elegido la opcion resta:");
@@ -191,7 +208,10 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo para hacer una suma.
+	 * @param teclado
+	 */
 	private static void suma(Scanner teclado) {
 		try {
 			System.out.println("Has elegido la opcion suma:");
@@ -208,7 +228,9 @@ public class Calculadora {
 		}
 
 	}
-
+	/**
+	 * Metodo que muestra el menu de la calculadora.
+	 */
 	private static void menu() {
 		System.out.println("CALCULADORA:");
 		System.out.println(

@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-/*
- * EJERCICIO 5 TAREA 10
- * AUTOR ---> Alvaro Benitez Carmona
- * 
- * */
+/**
+ * TAREA 10 EJERCICIO 5
+ * @author Alvaro Benitez Carmona
+ *
+ */
 public class MainPassword {
 
 	public static void main(String[] args) {
@@ -26,6 +26,11 @@ public class MainPassword {
 		}
 		ListaToString(ListPassword,ListEsFuerte);
 	}
+	/**
+	 * Metodo para mostrar por pantalla las dos listas.
+	 * @param ListPassword
+	 * @param ListEsFuerte
+	 */
 	private static void ListaToString(ArrayList<Password> ListPassword,ArrayList<Boolean> ListEsFuerte) {
 		for(int i=0;i<ListPassword.size();i++) {
 			System.out.print("Constraseña "+(i+1)+"---->"+ListPassword.get(i).getContraseña()+"         Nivel de seguridad ---->");
